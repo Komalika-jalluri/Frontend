@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <title>
+      Resume 
+    </title>
+  </head>
+  <body>
+    <h1 align="center"><u>RESUME</u></h1>
+    <h2 align="left">Name:</h2>
+    <h2 align="left">Contact no:</h2>
+    <h2 align="left">Email id:</h2>
+    <hr>
+    <h2 align="left"><u>CAREER OBJECTIVE:</u></h2>
+    
+    <p>
+      To attain a challenging position in an organisation and<br> we use my skills for the mutul
+      development organisation and me.</p>
+      <h2 align="left"><u>EDUCATIONAL QUALIFICATIONS:</u></h2>
+      
+  
+  <table border="1px" cellspacing="1px">
+    <tr>
+      <th>sno</th>
+      <th>course</th>
+      <th>college name</th>
+      <th>%</th>
+      <th>yop</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Btech</td>
+      <td>Sviet</td>
+      <td>73%</td>
+      <td>2026</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Intermediate</td>
+      <td>Srichaitanyajuniorcollege</td>
+      <td>94%</td>
+      <td>2022</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>SSC</td>
+      <td>Naryanajuniorcollege</td>
+      <td>100%</td>
+      <td>2020</td>
+    </tr>
+  </table>
+  <h2 align="left"><u>INTERNSHIP EXPERIENCES:</u></h2>
+  <p>Internet of things April-July 2024<br>Build responsive web pages using HTML,CSS,java script</p>
+  <h2 align="left"><u>SKILLS:</u></h3>
+  <p>HTML,CSS,Java Script<br>Problem-solving<br>Python<br>Java</p>
+  <h2 align="left"><u>PROJECTS:</u></h3>
+  <p>CSP-Community Service Project<br>I did CSP on Water Pollution-The project is about how to prevent Water from pollution.</p>
+  <h2 align="left"><u>CERTIFICATES:</u></h3>
+  <p>Achieved a certificate on Quiz competition in 2023 at SVIET<br>Achieved a certificate on Workshop in 2024 for PCB Fabrication</p>
+</body>
+</html>
