@@ -1,0 +1,56 @@
+<html>
+    <head>
+    
+    <style>
+    
+        body{
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGCp6zrSl3-KJY0E2U0JnfqYN4SP4-RQB0kw&s);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        h1{
+            font-style:italic;
+            font-weight:bold;
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </head>
+    <body align="center">
+        
+        <h1 align="center" style="color:blueviolet">Simple Calculator</h1>
+        <input type="number" name="" id="num1" placeholder="Enter number">
+        <input type="number" name="" id="num2"placeholder="Enter nūmber"><br><br>
+        <button type="button" class="btn btn-primary" onclick="add()">Add</button>
+        <button type="button" class="btn btn-secondary" onclick="sub()">Sub</button>
+        <button type="button" class="btn btn-success" onclick="mul()">Mul</button>
+        <button type="button" class="btn btn-danger" onclick="div()">Div</button>
+        <h1 id="h1"></h1>
+    </body>
+    <script>
+        function add()
+        {
+            a=Number(document.getElementById("num1").value);
+            b=Number(document.getElementById("num2").value);
+            document.getElementById("h1").innerHTML=a+b;
+        }
+        function sub()
+        {
+            a=Number(document.getElementById("num1").value);
+            b=Number(document.getElementById("num2").value);
+            document.getElementById("h1").innerHTML=a-b;
+        }
+        function mul()
+        {
+            a=Number(document.getElementById("num1").value);
+            b=Number(document.getElementById("num2").value);
+            document.getElementById("h1").innerHTML=a*b;
+        }
+        function div()
+        {    
+            a=Number(document.getElementById("num1").value);
+            b=Number(document.getElementById("num2").value);
+            document.getElementById("h1").innerHTML=a/b;
+        }
+</script>
+</html>
